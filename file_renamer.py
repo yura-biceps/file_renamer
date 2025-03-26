@@ -4,8 +4,10 @@ import shutil
 
 
 def main():
-    source_folder = Path('./test_files')
-    destination_folder = Path('./formatted_files')
+    source_folder_path = input('Specify path to source folder: ')
+    source_folder = Path(f'{source_folder_path}')
+    destination_folder_path = input('Specify path to destination folder: ')
+    destination_folder = Path(f'{destination_folder_path}')
     files = [f.name for f in source_folder.iterdir() if f.is_file()]
     print("Files in the source folder: ")
     print(files)
