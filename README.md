@@ -12,4 +12,6 @@ Write a script to:
 - Let the user specify the custom tag (like `"shiftA"` or `"inspection"`)
 
 ## 🌟 Bonus  
-- Add logging so you know what got renamed
+- Add logging so you know what got renamed. Write the log to a .txt file.
+- Add a dry-run mode to preview renames without actually doing them.
+- Skip already-renamed files.
